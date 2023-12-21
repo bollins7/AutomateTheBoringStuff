@@ -1,16 +1,25 @@
 # This program says hello and asks for my name
 
-print ('Hello World')
-print ('What is your name?')
+print('Hello, World!')
+print ('What is your name?') # ask for their name
 
-# Ask for their name
+# Requires an input from the user
+myName = input()
 
-myname = input()
+print ('It is good to meet you,' + myName)
 
-print ('It is good to meet you, ' + myname)
-print ('The length of your name is :')
-print (len(myname))
+print('The length of your name is:')
 
-print ('What is your age?') #Ask for their age
-myage = input()
-print ('You will be ' + str(int(myage) + 1) + ' in a year.')
+# len signifies length of the variable
+print(len(myName))
+
+print('What is your age?') #ask for their age
+
+# Another input from the user
+myAge = input()
+
+# str signifies that it will be a part of the quotation marks, int is the whole number, and 
+# includes the variable that the user inputted. +1 for the total. 
+
+
+print('You will be ' +str(int(myAge) +1) + ' in a year')
