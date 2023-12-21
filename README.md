@@ -1,2 +1,2 @@
 # AutomateTheBoringStuff
- Class on Udemy for Python 🐍 
+Going through the book
