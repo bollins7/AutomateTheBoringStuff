@@ -27,14 +27,14 @@ while True: # The main game loop
         print ('SCISSORS versus....')
 
     # Display what the computer chose:
-    random = random.randint (1,3)
-    if random == 1:
+    randomNumber = random.randint (1,3)
+    if randomNumber == 1:
         computerMove = 'r'
         print ('ROCK')
-    elif random == 2:
+    elif randomNumber == 2:
         computerMove = 'p'
         print ('PAPER')
-    elif random == 3:
+    elif randomNumber == 3:
         computerMove = 's'
         print ('SCISSORS')
 
